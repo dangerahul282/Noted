@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #0091ad;
+  --primary-dark-md: #368a9b;
+  --primary-light-md: #7fcddf;
+  --primary-light: #cff2fa;
+  --disabled-btn-color: #72aab4;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0 !important;
+}
+/* #editorjs {
+  font-size: 1.1rem;
+  padding: 0 5px;
+} */
+/* .save-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 3px;
+  border: 1px solid black;
+} */
+/* .back-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 3px;
+  border: 1px solid black;
+} */
+/* .btn-link {
+  cursor: pointer;
+} */
+/* .video-info {
+  font-size: 1.5rem;
+} */
+/* .btn-container {
+  display: flex;
+  justify-content: space-between;
+} */
+/* .save-notes-btn {
+  position: relative;
+  cursor: pointer;
+    top: -26px;
+    left: 7.5em;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+} */
+.video-info {
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* background-color: #f0f8ff; */
+  border-radius: 5px;
+  gap: 1rem;
+}
+.exact-time{
+  background-color: #68b9cb;
+  padding: 2px 18px;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+button.save-notes-btn {
+  background-color: var(--primary-color);
+    padding: 0px 21px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+button.save-notes-btn:hover {
+  background-color: var(--primary-dark-md);
+}
+.disabled{
+  background-color: var(--disabled-btn-color)!important;
+}
+
+div#editorjs {
+  text-align: left;
+  padding: 0.4rem 1.2rem;
+  margin: 0 15px;
+}
+
+.alert-bar{
+  display: none;
+}
